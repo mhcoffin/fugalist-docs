@@ -5,20 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d594f5d-8910-462d-aa6d-d672a5ccfdcf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/docs/tool/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/docs/tool/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/docs/tool/vst-tab.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assign-header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assignment-row.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/axis-editor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/axis-header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bulk-assignment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/overview-tab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vst-tab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/book" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/getting-started/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/introduction/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/introduction/how-its-used.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/introduction/notation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/introduction/problem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/body.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/bulk.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/filters.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/header.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/tool/composite-tab/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/tool/overview-tab/actions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/tool/overview-tab/fields.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/tool/vst-tab/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/tool/vst-tab/add-ons.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/tool/vst-tab/base.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/tool/vst-tab/midi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/tool/workflow/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/add-ons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assign-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assignment-complete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assignment-header.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/intro.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/assignment-tab.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/composite-tab.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/overview-tab.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/overview-tab/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/vst-tab.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +44,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1w3YgpsIPBiWjGUOljpF0eyrLmm" />
   <component name="ProjectViewState">
@@ -44,15 +69,16 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/content/docs/tool" />
-      <recent name="$PROJECT_DIR$/content/about" />
       <recent name="$PROJECT_DIR$/content/docs" />
-      <recent name="$PROJECT_DIR$/content" />
+      <recent name="$PROJECT_DIR$/content/docs/tool/intro" />
+      <recent name="$PROJECT_DIR$/content/docs/tool" />
+      <recent name="$PROJECT_DIR$/content/docs/tool/overview-tab" />
+      <recent name="$PROJECT_DIR$/content/docs/tool/vst-tab" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -63,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627688854118</updated>
-      <workItem from="1627688856448" duration="54059000" />
+      <workItem from="1627688856448" duration="77135000" />
     </task>
     <servers />
   </component>
