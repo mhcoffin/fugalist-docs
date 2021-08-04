@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Add-on Techniques #  Sometimes the planets align: your VST instrument will have a control that is
+ independent of all the others, and corresponds exactly to a Dorico playing technique.  If this happens, you&rsquo;re in luck.
+Example, you may find a VST instrument that uses CC3 to control attack. Low values mean gentle attack, high values mean marcato attack. Regardless of what else is going on, CC3 controls note attack.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="Add-on Techniques #  Sometimes the planets align: your VST instrument will have a control that is
+ independent of all the others, and corresponds exactly to a Dorico playing technique.  If this happens, you&rsquo;re in luck.
+Example, you may find a VST instrument that uses CC3 to control attack. Low values mean gentle attack, high values mean marcato attack. Regardless of what else is going on, CC3 controls note attack." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//fugalist.web.app/docs/tool/vst-tab/add-ons/" /><meta property="article:section" content="docs" />
+
+
+
+<title>Add Ons | Fugalist</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.958cea7827621d6fbcb3acf091344c3e44e3d2a9428f9c3c38bb9eb37bf8c45d.css" integrity="sha256-lYzqeCdiHW&#43;8s6zwkTRMPkTj0qlCj5w8OLues3v4xF0=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.5abb026c246dbca0c323141246fc42518d2af1f9d4221a754e1c331c45c14a62.js" integrity="sha256-WrsCbCRtvKDDIxQSRvxCUY0q8fnUIhp1ThwzHEXBSmI=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>Fugalist</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/getting-started/" class="">Getting Started</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/introduction/" class="">Introduction</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/introduction/notation/" class="">Notation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/introduction/how-its-used/" class="">How Dorico Uses an Expression Map</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/introduction/example/" class="">Tiny Example</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/introduction/problem/" class="">So What&#39;s the Problem?</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/" class="">Expression-map Builder</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/overview-tab/" class="">Overview Tab</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/overview-tab/fields/" class="">Fields</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/overview-tab/actions/" class="">Actions</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/vst-tab/" class="">VST Sounds Tab</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/vst-tab/base/" class="">Base Sounds</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/vst-tab/add-ons/" class=" active">Add Ons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/vst-tab/midi/" class="">MIDI Event Syntax</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/composite-tab/" class="">Composite Sounds</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/composite-tab/fields/" class="">Fields</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/composite-tab/condition-syntax/" class="">Condition Syntax</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/assignment-tab/" class="">Assignment Tab</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/assignment-tab/header/" class="">Header</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/assignment-tab/body/" class="">Body</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/assignment-tab/filters/" class="">Playing-technique filters</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/assignment-tab/bulk/" class="">Bulk Assignment</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/workflow/" class="">Workflow</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Add Ons</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="add-on-techniques">
+  Add-on Techniques
+  <a class="anchor" href="#add-on-techniques">#</a>
+</h1>
+<p>Sometimes the planets align: your VST instrument will have a control that is</p>
+<ul>
+<li>independent of all the others, and</li>
+<li>corresponds exactly to a Dorico playing technique.</li>
+</ul>
+<p>If this happens, you&rsquo;re in luck.</p>
+<p>Example, you may find a VST instrument that uses CC3 to control attack.
+Low values mean gentle attack, high values mean marcato attack. Regardless of what else
+is going on, CC3 controls note attack.</p>
+<p>You win. You can define an Add-On:</p>
+<p><img src="/add-ons.png" alt="add-on" /></p>
+<p>Select the Dorico playing technique (Marcato) from the dropdown.
+Then add the MIDI controls that will turn the effects on
+and off.
+Dorico will set CC3 to 127 before playing a marcato note, and set it back to 64 for non-marcato notes. It
+will do that no matter what else is going on.</p>
+<p>The beauty of this is that <em>marcato</em> is now taken care of once and for all. When you get to the sound-assignment tab,
+you can just delete the <strong>Attack</strong> axis, which cuts the size of the expression map in half and saves hassle, too.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

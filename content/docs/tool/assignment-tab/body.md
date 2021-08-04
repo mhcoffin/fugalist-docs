@@ -21,6 +21,6 @@ that you've defined earlier. In this case, the VST contains a _marcato non-vibra
 The result will be that Dorico will play a note labeled with _non vibrato_ and _marcato_ using the **start** and
 **stop** MIDI events specified for the _marcato non-vibrato_ sound.
 
-One (very tediuos) way to create an expression map would be to go through every row of the table,
+One (very tedious) way to create an expression map would be to go through every row of the table,
 examine the playing techniques, select a VST or Composite sound, and assign it.
 But frequently we can do better than that.

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Fugalist</title>
+    <link>//fugalist.web.app/docs/introduction/</link>
+    <description>Recent content in Introduction on Fugalist</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="//fugalist.web.app/docs/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>//fugalist.web.app/docs/introduction/notation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//fugalist.web.app/docs/introduction/notation/</guid>
+      <description>Music Notation #  Western music notation starts with staffs, clefs, and notes. Then it gets complicated. For hundreds of years, people have been adding new symbols and annotations to music notation to better express how the music is intended to sound.
+Dorico supports pretty much any notation you can imagine. Hundreds of notations are built in, and you can create your own if you need to. During playback, Dorico does an amazing job of keeping track of all the notations that apply to a particular note.</description>
+    </item>
+    
+    <item>
+      <title>How Dorico Uses an Expression Map</title>
+      <link>//fugalist.web.app/docs/introduction/how-its-used/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//fugalist.web.app/docs/introduction/how-its-used/</guid>
+      <description>How does Dorico use an expression map? #  For each note in a score, Dorico computes the pitch, duration, volume, and the set of playing techniques that are active.
+Dorico itself takes care of pitch and duration for the most part, so you usually don&amp;rsquo;t need to worry too much about them.
+However, you can adjust Dorico&amp;rsquo;s durations if you need to.  Dorico needs a little help with the volume.</description>
+    </item>
+    
+    <item>
+      <title>Tiny Example</title>
+      <link>//fugalist.web.app/docs/introduction/example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//fugalist.web.app/docs/introduction/example/</guid>
+      <description>Tiny Example #  To be concrete, suppose we want to support the following playing techniques:
+ Normal and tenuto lengths Normal and legato note connections Normal and pizzicato technique  Here&amp;rsquo;s a complete table of sensible combinations, eight in all:
+   Length Legato Technique on off vol etc     Normal Normal Normal       Normal Normal Pizz       Normal Legato Normal       Normal Legato Pizz       Tenuto Normal Normal       Tenuto Normal Pizz       Tenuto Legato Normal       Tenuto Legato Pizz        What remains is to fill in the blanks: specify on events, off events, etc.</description>
+    </item>
+    
+    <item>
+      <title>So What&#39;s the Problem?</title>
+      <link>//fugalist.web.app/docs/introduction/problem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//fugalist.web.app/docs/introduction/problem/</guid>
+      <description>What&amp;rsquo;s the problem? #  This all seems pretty straightforward: figure out which playing techniques to support. Then create a table with one row for each combination of playing techniques. Assign on events, off events, etc., for each row.
+The problem is scale. Suppose you want to support
+ five note articulations (normal, staccato, staccatissimo, tenuto, and staccato-tenuto), normal and legato note transitions normal and marcato attack, and normal and non- vibrato normal, pizzicato, sul tasto, and sul pont.</description>
+    </item>
+    
+  </channel>
+</rss>

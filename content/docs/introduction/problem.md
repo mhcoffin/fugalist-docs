@@ -9,11 +9,11 @@ one row for each combination of playing techniques. Assign on events, off events
 
 The problem is scale.
 Suppose you want to support
-1. five note articulations (normal, staccato, staccatissimo, tenuto, and staccato-tenuto),
-2. normal and legato note transitions
-3. normal and marcato attack, and
-4. normal and non- vibrato
-5. normal, pizzicato, sul tasto, and sul pont.
+1. five note articulations (_normal_, _staccato_, _staccatissimo_, _tenuto_, and _staccato-tenuto_),
+2. _normal_ and _legato_ note transitions
+3. _normal_ and _marcato_ attack, and
+4. _normal_ and _non-vibrato_
+5. _normal_, _pizzicato_, _sul tasto_, and _sul pont_.
 
 That's 15 playing techniques, which means
 

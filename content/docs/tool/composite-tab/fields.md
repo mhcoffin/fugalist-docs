@@ -20,7 +20,8 @@ The syntax for conditions is described [here](/docs/tool/composite-tab/condition
 ## Length
 
 Enter a percentage if you want to adjust the note length.
-{{< hint warn >}}
+
+{{< hint warning >}}
 Remember that Dorico already modifies notated note lengths if certain playing techniques are active.
 {{< /hint >}}
 

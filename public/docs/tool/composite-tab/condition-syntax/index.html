@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="How to Write Conditions #  Fugalist is pretty flexible about how to write conditions. You can use comparison operators to combine the actual note length (NoteLength) and Dorico&rsquo;s predefined note lengths.
+Examples of simple comparisons:
+NoteLength &lt;= veryShort note length &lt;= very short very short &lt; note length  Dorico&rsquo;s predefined note lengths:
+ very short 0.1875 seconds, or a dotted 16th note at 120bpm short 0.375 seconds, or a dotted 8th note at 120bpm medium 0.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="How to Write Conditions #  Fugalist is pretty flexible about how to write conditions. You can use comparison operators to combine the actual note length (NoteLength) and Dorico&rsquo;s predefined note lengths.
+Examples of simple comparisons:
+NoteLength &lt;= veryShort note length &lt;= very short very short &lt; note length  Dorico&rsquo;s predefined note lengths:
+ very short 0.1875 seconds, or a dotted 16th note at 120bpm short 0.375 seconds, or a dotted 8th note at 120bpm medium 0." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//fugalist.web.app/docs/tool/composite-tab/condition-syntax/" /><meta property="article:section" content="docs" />
+
+
+
+<title>Condition Syntax | Fugalist</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.958cea7827621d6fbcb3acf091344c3e44e3d2a9428f9c3c38bb9eb37bf8c45d.css" integrity="sha256-lYzqeCdiHW&#43;8s6zwkTRMPkTj0qlCj5w8OLues3v4xF0=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.5abb026c246dbca0c323141246fc42518d2af1f9d4221a754e1c331c45c14a62.js" integrity="sha256-WrsCbCRtvKDDIxQSRvxCUY0q8fnUIhp1ThwzHEXBSmI=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>Fugalist</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/getting-started/" class="">Getting Started</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/introduction/" class="">Introduction</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/introduction/notation/" class="">Notation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/introduction/how-its-used/" class="">How Dorico Uses an Expression Map</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/introduction/example/" class="">Tiny Example</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/introduction/problem/" class="">So What&#39;s the Problem?</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/" class="">Expression-map Builder</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/overview-tab/" class="">Overview Tab</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/overview-tab/fields/" class="">Fields</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/overview-tab/actions/" class="">Actions</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/vst-tab/" class="">VST Sounds Tab</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/vst-tab/base/" class="">Base Sounds</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/vst-tab/add-ons/" class="">Add Ons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/vst-tab/midi/" class="">MIDI Event Syntax</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/composite-tab/" class="">Composite Sounds</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/composite-tab/fields/" class="">Fields</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/composite-tab/condition-syntax/" class=" active">Condition Syntax</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/assignment-tab/" class="">Assignment Tab</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/assignment-tab/header/" class="">Header</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/assignment-tab/body/" class="">Body</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/assignment-tab/filters/" class="">Playing-technique filters</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/assignment-tab/bulk/" class="">Bulk Assignment</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist.web.app/docs/tool/workflow/" class="">Workflow</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Condition Syntax</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#empty-condition">Empty Condition</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="how-to-write-conditions">
+  How to Write Conditions
+  <a class="anchor" href="#how-to-write-conditions">#</a>
+</h1>
+<p>Fugalist is pretty flexible about how to write conditions.
+You can use comparison operators to combine the actual note length (<em>NoteLength</em>) and Dorico&rsquo;s predefined note lengths.</p>
+<p>Examples of simple comparisons:</p>
+<pre><code>NoteLength &lt;= veryShort
+note length &lt;= very short
+very short &lt; note length
+</code></pre>
+<blockquote class="book-hint info">
+  <p>Dorico&rsquo;s predefined note lengths:</p>
+<ul>
+<li><strong>very short</strong> 0.1875 seconds, or a dotted 16th note at 120bpm</li>
+<li><strong>short</strong> 0.375 seconds, or a dotted 8th note at 120bpm</li>
+<li><strong>medium</strong> 0.75 seconds, or a dotted quarter note at 120bpm</li>
+<li><strong>long</strong> 1.5 seconds, or a dotted half note at 120bpm</li>
+</ul>
+
+</blockquote>
+
+<blockquote class="book-hint info">
+  <p>Comparison operators:</p>
+<ul>
+<li><strong>&lt;=</strong></li>
+<li><strong>&lt;</strong></li>
+<li><strong>&gt;=</strong></li>
+<li><strong>&gt;</strong></li>
+<li><strong>==</strong></li>
+<li><strong>!=</strong></li>
+</ul>
+
+</blockquote>
+
+<p>You can combine simple comparisons with <strong>and</strong>. Examples:</p>
+<pre><code>NoteLength &gt; short and NoteLength &lt; long
+very short &lt; note length AND note length &lt; long
+</code></pre>
+<p>Note-length ranges arise frequently; Fugalist provides a short-cut. The following two examples are equivalent:</p>
+<pre><code>short &lt; note length &lt;= long
+short &lt; NoteLength AND note length &lt;= long
+</code></pre>
+<blockquote class="book-hint warning">
+  <p>Fugalist checks the syntax of your conditions, but it doesn&rsquo;t try to ensure that they make sense.</p>
+<p>If you write</p>
+<pre><code>shortt &lt; note length
+</code></pre>
+<p>Fugalist will tell you that &ldquo;shortt&rdquo; isn&rsquo;t something it understands.</p>
+<p>But (currently at least) Fugalist doesn&rsquo;t
+make any attempt to determine whether your conditions actually make sense. For example, if one of your conditions is</p>
+<pre><code>NoteLength &lt; short and Notelength &gt; long
+</code></pre>
+<p>Fugalist will happily put that in your expression map in spite of the fact that it can never actually be true.</p>
+
+</blockquote>
+
+<h2 id="empty-condition">
+  Empty Condition
+  <a class="anchor" href="#empty-condition">#</a>
+</h2>
+<p>An empty condition is always <strong>true</strong>.
+That&rsquo;s useful if you just want to adjust length or octave transposition for one of your VST sounds without paying
+attention to note length.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#empty-condition">Empty Condition</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
