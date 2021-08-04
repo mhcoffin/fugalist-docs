@@ -28,19 +28,3 @@ are active."
 
 The last column of the header allows you to do bulk sound assignment, 
 which will be [covered later](/docs/tool/assignment-tab/bulk).
-
-#### Editing Playing Techniques
-
-Clicking on the name of the column opens a dialog that lets you edit that group of playing techniques:
-
-![Axis](/axis-editor.png)
-
-Here you can
-- change the name of the axis
-- add or delete playing techniques from the axis
-- move the axis left or right if that makes more sense to you
-- add a new axis
-- delete an axis.
-
-Fugalist provides a default set of axes to get started but, at minimum, you will probably want to
-add to the **Techniques** axis additional playing techniques specific to the instrument.

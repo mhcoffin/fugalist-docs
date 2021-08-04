@@ -2,7 +2,7 @@
 weight: 20
 ---
 
-# How to Write Conditions
+# Condition Syntax
 
 Fugalist is pretty flexible about how to write conditions.
 You can use comparison operators to combine the actual note length (_NoteLength_) and Dorico's predefined note lengths.

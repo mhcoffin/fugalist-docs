@@ -5,7 +5,7 @@ title: Bulk Assignment
 
 # Bulk Assignment
 
-Frequently, after narrowing visible rows down, you want to apply the same sound to all the visible rows.
+Frequently, after focusing in on some rows, you want to apply the same sound to all the visible rows.
 To continue the example from the previous section, you might want to assign "harsh staccato" to 
 all the rows that have _marcato_ in addition to either _staccato_ or _staccatissimo_.
 Bulk sound assignment lets you do that.

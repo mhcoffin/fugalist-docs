@@ -7,7 +7,7 @@ weight: 1
 
 Use the overview tab to specify metadata about the expression map: who created it, what's it for, etc.
 
-Some of the fields from this tab are put into the generated Dorico expression map. 
+Some fields from this tab are put into the generated Dorico expression map. 
 Other fields are not part of the expression map itself, but are used to help others find your expression
 map if you choose to share it. 
 

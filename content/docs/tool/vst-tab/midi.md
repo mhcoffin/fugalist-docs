@@ -32,8 +32,6 @@ A chromatic note with an octave number:
     d#2
     f 3
 
-(Sharps are supported but not flats.)
-
 {{< hint info >}}
 Middle C is by default **C4**. 
 If your VST vendor has a different opinion, you can open the Options toggle at the top of the page and choose
@@ -55,7 +53,7 @@ To set a continuous controller to a particular value:
 
 ## CC Ranges
 
-Some VST instruments use a CC to choose between several options.
+Some VST instruments use a continuous controller to choose between several options.
 E.g., CC3 might be used to make a six-way choice.
 The first 1/6 of the range, approximately 0-21, picks the first choice;
 the second 1/6 of the range, approximately 22-42, picks the second choice; and so on.

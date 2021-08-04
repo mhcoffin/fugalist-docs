@@ -6,9 +6,9 @@ title: Composite Sounds
 # The Composite Sounds Tab
 
 The composite sounds tab provides support for
-- note-length conditions
-- length adjustments
-- octave transpositions
+- note-length conditions,
+- length adjustments, and
+- octave transpositions.
 
 A composite sound can have multiple branches that depend on note-length conditions.
 Here is an example:

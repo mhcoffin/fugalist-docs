@@ -5,19 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d594f5d-8910-462d-aa6d-d672a5ccfdcf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/content/docs/tool/Organization/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/header-project-list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/axis-editor.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/getting-started/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/getting-started/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/introduction/how-its-used.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/introduction/how-its-used.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/introduction/notation.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/introduction/notation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/introduction/problem.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/introduction/problem.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/Organization/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/Organization/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/docs/tool/assignment-tab/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/docs/tool/assignment-tab/body.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/body.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/composite-tab/fields.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/composite-tab/fields.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/assignment-tab/bulk.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/bulk.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/assignment-tab/filters.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/filters.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/assignment-tab/header.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/header.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/composite-tab/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/composite-tab/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/composite-tab/condition-syntax.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/composite-tab/condition-syntax.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/overview-tab/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/overview-tab/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/overview-tab/actions.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/overview-tab/actions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/overview-tab/fields.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/overview-tab/fields.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/vst-tab/midi.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/vst-tab/midi.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627688854118</updated>
-      <workItem from="1627688856448" duration="88422000" />
+      <workItem from="1627688856448" duration="90988000" />
     </task>
     <servers />
   </component>

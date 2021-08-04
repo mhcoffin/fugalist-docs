@@ -5,7 +5,7 @@ weight: 4
 
 ## The Assignment Tab
 
-The assignment is basically a fancy version of the [tiny example](/docs/intro/#tiny-example) shown earlier.
+The assignment is basically a fancy version of the [tiny example](/docs/introduction/example/#tiny-example) shown earlier.
 
 Here's a truncated example of a real assignment tab:
 
