@@ -15,7 +15,7 @@ The rightmost header in the assignment tab looks like this:
 ![Bulk](/bulk-assignment.png)
 
 The top dropdown (initially blank) lets you pick any VST or Composite sound that you've defined.
-The **Apply** button assigns that sound to all the visible rows in the table.
+The **Apply** button assigns that sound to all the **visible** rows in the table.
 If any visible rows already have a sound assigned, it overwrites those assignments.
 
 The _Defined_ and _Undefined_ buttons are additional filters: toggling _Defined_ off hides all the rows

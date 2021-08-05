@@ -7,6 +7,6 @@ weight: 4
 
 The assignment is basically a fancy version of the [tiny example](/docs/introduction/example/#tiny-example) shown earlier.
 
-Here's a truncated example of a real assignment tab:
+Here's a truncated example of an assignment tab:
 
-![Example](/assign-tab.png)
+![Example](/assignment-tab.png)

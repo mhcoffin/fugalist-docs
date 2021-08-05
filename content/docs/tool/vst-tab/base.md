@@ -5,7 +5,10 @@ title: Base Sounds
 # Base Sounds
 
 This is where you enter the sounds you want to use from your VST instrument.
-To add a new sound, click the **+** sign and fill in the blanks:
+To add a new sound, click the **+** sign and fill in the blanks. 
+Here's one example row:
+
+![example-row](/vst-sound-row.png)
 
 ## Name
 
@@ -19,15 +22,15 @@ See [Specifying MIDI events](/docs/tool/vst-tab/midi) for details of how to writ
 ## Stop events
 
 These MIDI events are sent to stop the sound.
-See [Specifying MIDI events]() for details of how to write MIDI events.
+See [Specifying MIDI events](/docs/tool/vst-tab/midi) for details of how to write MIDI events.
 
 ## Dynamics
 
-You can specify either note velocity or a continuous controller (CC) to control velocity:
+You can specify either MIDI note velocity or a MIDI continuous controller (CC) to control velocity:
 
 #### Velocity
 
-Just use the word "velocity", optionally followed by an optional range. Examples:
+Just use the word "velocity", optionally followed by an range. Examples:
 
     velocity
     velocity 10:120

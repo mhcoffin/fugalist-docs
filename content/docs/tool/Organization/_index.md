@@ -19,10 +19,11 @@ When you create a new project, it starts you off in the Overview tab.
   For many sample libraries, you can skip this tab entirely.
 
 - The **Assignment Tab** is a fancy version of the table described in the
-  [previously](/docs/introduction/example/#tiny-example). Using this tab, you can specify which techniques you
+  [previous](/docs/introduction/example/#tiny-example) example.
+  Using this tab, you can specify which techniques you
   want to support and how to group them.
   Then, for each combination of playing techniques,
-  you can assign a sound, either from the VST Sounds tab or the Composite sounds tab.
+  you can assign a sound, from either the VST Sounds tab or the Composite sounds tab.
 
   You can make sound assignments one row at a time, or you can select many rows at once (using technique filters)
   and assign a sound to all those rows.

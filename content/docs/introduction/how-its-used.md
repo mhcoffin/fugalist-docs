@@ -28,7 +28,7 @@ to find an expression-map entry. Then it reads from the expression-map entry the
 - **Volume dynamic**: A specification of how to control the volume of the note. The volume of a VST instrument
   can be controlled either by using note velocity, or by some continuous controller (CC).
 - **Length adjustment**: an adjustment to the note length (percentage).
-- **Tranposition**: an adjustment to the note pitch in case the library is in a different octave.
+- **Transposition**: an adjustment to the note pitch in case the library is in a different octave.
 
 So, in a sense, an expression map is a very simple thing. It's just a big look-up table, with one row for each
 combination of playing techniques. Once Dorico finds the right row, it reads the _on_ events, _off_ events, etc., and

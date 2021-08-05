@@ -10,12 +10,14 @@ Give your composite sound a name.
 
 ## Condition
 
+![Example](/composite-tab.png)
+
 The condition determines which branch of the composite sound to use for a particular note. In the example above,
 the first branch is used if the note length (as computed by Dorico) is less than **short**.
 The second branch is used otherwise. That means that short notes will use your _staccato_ patch, and longer notes
 use the _sustain_ patch.
 
-The syntax for conditions is described [here](/docs/tool/composite-tab/condition-syntax).
+The syntax for conditions is described in [Condition Syntax](/docs/tool/composite-tab/condition-syntax).
 
 ## Length
 

@@ -11,8 +11,8 @@ Sometimes the planets align: your VST instrument will have a control that is
 
 If this happens, you're in luck.
 
-Example, you may find a VST instrument that uses CC3 to control attack.
-Low values mean gentle attack, high values mean marcato attack. Regardless of what else
+For example, you may find a VST instrument that uses CC3 to control attack.
+Low values mean gentle attack, high values mean _marcato_ attack. Regardless of what else
 is going on, CC3 controls note attack. 
 
 You win. You can define an Add-On:

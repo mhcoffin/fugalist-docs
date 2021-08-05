@@ -26,7 +26,7 @@ Repeat until the air vibrates in interesting ways.
 One way to do sound assignment is to pick the most common sound---probably a sustain---and start by assigning
 it to _all_ combinations in the table.
 Then _override_ specific exceptions, either by toggling technique filters and using bulk assignment, 
-or by surgically changing particular rows.
+or by selectively changing individual rows.
 
 Another way is to try to assign sounds exactly right the first time. 
 For this approach, toggling the _Defined_ filter to **off** is really handy:

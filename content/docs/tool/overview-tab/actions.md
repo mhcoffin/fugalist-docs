@@ -23,7 +23,7 @@ They can also pass the URL on to others, who will also be able to download it.
 
 ## Share
 
-This button shares current state of your expression map and then increments the version.
+This button shares your expression map in its current state and then increments the version.
 The shared expression map will show up in the Fugalist search page, so anyone can find it and download it.
 
 To share, you must have filled in at least a name, description, vendor, and instruments.
@@ -38,3 +38,7 @@ Bug: currently, Fugalist doesn't provide a direct way to get the URL of old vers
 If you have shared a version of your expression map and then suddenly realize that you've made a horrible mistake, you can un-share.
 This doesn't actually delete anything, but it fixes things so that people browsing for maps won't see your expression
 map until you share again.
+
+{{< hint danger >}}
+Bug: currently, if someone already has the URL for an un-shared expression map, they can still download it.  
+{{< /hint >}}

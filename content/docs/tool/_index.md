@@ -15,7 +15,7 @@ Fugalist stores your data in the cloud, so to use it you have to be on-line and
 signed in to Fugalist.
 {{< /hint >}}
 
-To get started, click on the _project list_ icon in the Fugalist header:
+To get started, click on the _My Projects_ icon in the Fugalist header:
 
 ![header](/header-project-list.png)
 

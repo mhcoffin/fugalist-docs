@@ -4,7 +4,7 @@ weight: 2
 
 # Overview Fields
 
-## Project ID.
+## Project ID
 
 A unique identifier for this project.
 
@@ -69,7 +69,7 @@ To make it easier for other people to find shared expression maps, you can inclu
 ## Demos
 
 You can upload audio demos of your expression map in action. Useful for people looking for an expression map. 
-You can also upload a PDF score for your demo.
+You can also upload a PDF of the score you used to create your demo.
 {{< hint danger >}}
-Bug: currently the Dorico score isn't visible to users looking for shared expression maps. 
+Bug: currently the PDF score isn't visible to users looking for shared expression maps. 
 {{< /hint >}}

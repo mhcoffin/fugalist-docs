@@ -15,9 +15,9 @@ Here is an example:
 
 ![Example](/composite-tab.png)
 
-If you assign this composite sound (**Sustain**) to some combination of playing techniques then,
-when Dorico plays a note with those techniques, it will decide whether to use
+If you assign this composite sound (**Sustain**) to some combination of playing techniques, then
+when Dorico plays a note with those techniques it will decide whether to use
 a **staccato** sound or a **sustain** based the duration of the note.
 
-When you create a composite sound (by clicking **+**) a single branch is created. You can add other branches to
-the composite sound by clicking **+** on the right.
+When you create a composite sound (by clicking **+** at the bottom of the page) a single branch is created.
+You can add other branches to the composite sound by clicking **+** on the right.

@@ -7,7 +7,7 @@ title: Playing-technique filters
 
 The column header of the **Length** axis looks like this:
 
-![axis-header](/axis-header.png)
+![axis-header](/technique-filter.png)
 
 We saw [earlier](/docs/tool/assignment-tab/axis-editor) that clicking on the **Length** button opens the axis-editor dialog. 
 Clicking on a playing technique such as

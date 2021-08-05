@@ -4,9 +4,14 @@ weight: 1
 
 # The Assignment Table Header
 
-The assignment-table header shows all the playing techniques that the expression map supports and how they are grouped. 
+The assignment-table header shows all the playing techniques that the expression map supports and how they are grouped.
+
+Fugalist starts you off with a small selection of playing techniques applicable to almost any instrument:
 
 ![Header](/assignment-header.png)
+
+You can use the [Axis Editor](/docs/tool/assignment-tab/axis-editor/#editing-playing-techniques) to add and delete
+playing techniques or to add and delete entire axes.
 
 Each column is called an _axis_.
 
@@ -16,7 +21,8 @@ Each column is called an _axis_.
 - The second axis (**Legato**) consists of _Normal_ and _Legato_.
 - The third axis (**Vibrato**) consists of _Normal_ and _Non vibrato_.
 - The fourth axis (**Attack**) consists of _Normal_ and _Marcato_.
-- Finally, **Technique**, which contains only _Normal_ for now.
+- Finally, **Technique**, which initially contains only _Normal_. This is a good place to add special techniques that
+  your instrument supports: _pizzicato_, _fluttertongue_, etc.
 
 {{< hint info >}}
 Every axis has a _Normal_ technique. 

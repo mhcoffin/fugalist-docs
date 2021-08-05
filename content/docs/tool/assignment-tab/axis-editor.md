@@ -2,7 +2,7 @@
 weight: 2
 ---
 
-# Editing Playing Techniques
+# Axis Editor
 
 Clicking on the name of the column opens a dialog that lets you edit that group of playing techniques:
 

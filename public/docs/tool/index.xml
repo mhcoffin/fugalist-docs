@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Expression-map Builder on Fugalist</title>
-    <link>//fugalist.web.app/docs/tool/</link>
+    <link>//fugalist-docs.web.app/docs/tool/</link>
     <description>Recent content in Expression-map Builder on Fugalist</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="//fugalist.web.app/docs/tool/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="//fugalist-docs.web.app/docs/tool/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

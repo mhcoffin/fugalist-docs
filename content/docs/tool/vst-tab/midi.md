@@ -7,7 +7,7 @@ title: MIDI Event Syntax
 
 ## MIDI Key Switch
 
-A MIDI key switch can be specified either as a note number (0-127) or a chromatic note plus an octave.
+A MIDI key switch can be specified either as a note number (0-127) or as a chromatic note plus an octave.
 
 ### MIDI Note Number
 
@@ -65,9 +65,9 @@ Fugalist supports an alternative notation:
 
 This will divide the range 0-127 into six parts and pick a value that falls in the middle of the fourth range.
 
-## Program change
+## MIDI Program change
 
-A program change:
+To enter a MIDI program change, prefix the program number with **PC**:
 
     PC13
     pc 12

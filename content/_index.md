@@ -1,8 +1,13 @@
 
 # Fugalist 
 
-Fugalist is an independent website for finding, building, and sharing [Dorico](https://new.steinberg.net/dorico/)
-expression maps.
+
+[Dorico](https://new.steinberg.net/dorico/) uses _expression maps_ to control how it plays the articulations, 
+dynamics, and playing techniques you use in your musical score.
+An expression map is essentially a translation between musical notation and [MIDI](https://www.midi.org/) events used to control a
+[VST](https://www.steinberg.net/en/company/technologies/vst3.html) instrument.
+
+Fugalist is an independent website for finding, building, and sharing expression maps.
 
 {{< hint info >}}
 Fugalist is not affiliated with Steinberg or Dorico.
