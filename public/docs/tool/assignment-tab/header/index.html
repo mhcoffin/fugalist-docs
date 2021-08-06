@@ -4,15 +4,11 @@
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=description content="The Assignment Table Header #  The assignment-table header shows all the playing techniques that the expression map supports and how they are grouped.
 Fugalist starts you off with a small selection of playing techniques applicable to almost any instrument:
-You can use the Axis Editor to add and delete playing techniques or to add and delete entire axes.
-Each column is called an axis.
- The first axis (Length) consists of the Dorico playing techniques that indicate note duration: Normal, Staccato, Staccatissimo, Tenuto, and Staccato-tenuto.">
+Each column&mdash;Length, Legato, etc.&mdash;is called an axis. Fugalist will create a Dorico mutual-exclusion group for each axis (unless it contains only a single playing technique).  You can use the Axis Editor to add and delete playing techniques or to add and delete entire axes.">
 <meta name=theme-color content="#FFFFFF"><meta property="og:title" content>
 <meta property="og:description" content="The Assignment Table Header #  The assignment-table header shows all the playing techniques that the expression map supports and how they are grouped.
 Fugalist starts you off with a small selection of playing techniques applicable to almost any instrument:
-You can use the Axis Editor to add and delete playing techniques or to add and delete entire axes.
-Each column is called an axis.
- The first axis (Length) consists of the Dorico playing techniques that indicate note duration: Normal, Staccato, Staccatissimo, Tenuto, and Staccato-tenuto.">
+Each column&mdash;Length, Legato, etc.&mdash;is called an axis. Fugalist will create a Dorico mutual-exclusion group for each axis (unless it contains only a single playing technique).  You can use the Axis Editor to add and delete playing techniques or to add and delete entire axes.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="//fugalist-docs.web.app/docs/tool/assignment-tab/header/"><meta property="article:section" content="docs">
 <title>Header | Fugalist</title>
@@ -20,7 +16,7 @@ Each column is called an axis.
 <link rel=icon href=/favicon.png type=image/x-icon>
 <link rel=stylesheet href=/book.min.958cea7827621d6fbcb3acf091344c3e44e3d2a9428f9c3c38bb9eb37bf8c45d.css integrity="sha256-lYzqeCdiHW+8s6zwkTRMPkTj0qlCj5w8OLues3v4xF0=" crossorigin=anonymous>
 <script defer src=/flexsearch.min.js></script>
-<script defer src=/en.search.min.4976ce6398efbaba0ecfd154819be359e105e7f0ccd2baa0ac89041aefc758d8.js integrity="sha256-SXbOY5jvuroOz9FUgZvjWeEF5/DM0rqgrIkEGu/HWNg=" crossorigin=anonymous></script>
+<script defer src=/en.search.min.f49ecc21c3c164c0c0076a73918888fbea3de099005d2d8029a60c3da021e37b.js integrity="sha256-9J7MIcPBZMDAB2pzkYiI++o94JkAXS2AKaYMPaAh43s=" crossorigin=anonymous></script>
 </head>
 <body dir=ltr>
 <input type=checkbox class="hidden toggle" id=menu-control>
@@ -159,9 +155,13 @@ The Assignment Table Header
 <p>The assignment-table header shows all the playing techniques that the expression map supports and how they are grouped.</p>
 <p>Fugalist starts you off with a small selection of playing techniques applicable to almost any instrument:</p>
 <p><img src=/assignment-header.png alt=Header></p>
+<p>Each column&mdash;<strong>Length</strong>, <strong>Legato</strong>, etc.&mdash;is called an <em>axis</em>.
+<blockquote class="book-hint info">
+Fugalist will create a Dorico mutual-exclusion group for each axis (unless it contains only a single playing technique).
+</blockquote>
+</p>
 <p>You can use the <a href=/docs/tool/assignment-tab/axis-editor/#editing-playing-techniques>Axis Editor</a> to add and delete
 playing techniques or to add and delete entire axes.</p>
-<p>Each column is called an <em>axis</em>.</p>
 <ul>
 <li>The first axis (<strong>Length</strong>) consists of the Dorico playing techniques that indicate note duration:
 <em>Normal</em>, <em>Staccato</em>, <em>Staccatissimo</em>, <em>Tenuto</em>,
@@ -174,7 +174,7 @@ your instrument supports: <em>pizzicato</em>, <em>fluttertongue</em>, etc.</li>
 </ul>
 <blockquote class="book-hint info">
 Every axis has a <em>Normal</em> technique.
-<em>Normal</em> is not an actual playing technique.
+<em>Normal</em> is not an actual Dorico playing technique.
 <em>Normal</em> means &ldquo;no other playing technique from this group is active&rdquo;.
 For example, under <strong>Length</strong>, <em>Normal</em> means &ldquo;none of <em>staccato</em>, <em>staccatissimo</em>, <em>tenuto</em>, or <em>staccato-tenuto</em>
 are active.&rdquo;

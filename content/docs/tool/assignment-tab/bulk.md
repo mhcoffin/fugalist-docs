@@ -22,5 +22,7 @@ The _Defined_ and _Undefined_ buttons are additional filters: toggling _Defined_
 that have a sound already assigned. Similarly, toggling _Undefined_ off hides rows where no sound has been assigned.
 One use for these toggles is to avoid overwriting existing assignments.
 
+{{< hint info >}}
 If you assign the blank sound ("---") to a combination, that combination will not be written to the expression
 map at all.
+{{< /hint >}}

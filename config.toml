@@ -1,3 +1,5 @@
 baseURL = "//fugalist-docs.web.app"
 languageCode = "en-us"
 title = "Fugalist"
+[params]
+    BookTheme = "auto"
