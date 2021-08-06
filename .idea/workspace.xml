@@ -5,38 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d594f5d-8910-462d-aa6d-d672a5ccfdcf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/assignment-tab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/technique-filter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vst-sound-row.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.firebaserc" beforeDir="false" afterPath="$PROJECT_DIR$/.firebaserc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/getting-started/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/getting-started/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/introduction/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/introduction/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/introduction/how-its-used.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/introduction/how-its-used.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/introduction/problem.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/introduction/problem.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/Organization/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/Organization/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/assignment-tab/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/assignment-tab/axis-editor.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/axis-editor.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/docs/tool/assignment-tab/body.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/body.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/assignment-tab/filters.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/filters.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/assignment-tab/bulk.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/bulk.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/docs/tool/assignment-tab/header.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/assignment-tab/header.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/composite-tab/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/composite-tab/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/composite-tab/fields.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/composite-tab/fields.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/overview-tab/actions.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/overview-tab/actions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/overview-tab/fields.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/overview-tab/fields.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/vst-tab/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/vst-tab/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/vst-tab/add-ons.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/vst-tab/add-ons.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/vst-tab/base.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/vst-tab/base.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/vst-tab/midi.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/vst-tab/midi.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/workflow/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/workflow/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/add-ons.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/add-ons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assignment-header.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assignment-header.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assignment-row.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assignment-row.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/axis-editor.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/axis-editor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bulk-assignment.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/bulk-assignment.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/categories/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/categories/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/composite-tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/composite-tab.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/getting-started/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/getting-started/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/getting-started/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/getting-started/index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/index.html" afterDir="false" />
@@ -47,6 +29,7 @@
       <change beforePath="$PROJECT_DIR$/public/docs/introduction/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/introduction/index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/introduction/notation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/introduction/notation/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/introduction/problem/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/introduction/problem/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/tool/assignment-tab/axis-editor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/assignment-tab/axis-editor/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/tool/assignment-tab/body/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/assignment-tab/body/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/tool/assignment-tab/bulk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/assignment-tab/bulk/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/tool/assignment-tab/filters/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/assignment-tab/filters/index.html" afterDir="false" />
@@ -59,6 +42,8 @@
       <change beforePath="$PROJECT_DIR$/public/docs/tool/composite-tab/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/composite-tab/index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/tool/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/tool/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/tool/organization/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/organization/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/tool/organization/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/organization/index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/tool/overview-tab/actions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/overview-tab/actions/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/tool/overview-tab/fields/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/overview-tab/fields/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/tool/overview-tab/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/overview-tab/index.html" afterDir="false" />
@@ -70,29 +55,15 @@
       <change beforePath="$PROJECT_DIR$/public/docs/tool/vst-tab/midi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/vst-tab/midi/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/tool/workflow/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/workflow/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/docs/tool/workflow/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/workflow/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en.search-data.min.3f9625161ecc0ac2fb2103a094f11dd283a9953cfca343972eee8d61e2783bfc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en.search-data.min.cb33510d45f40f126994d8c745045325f13e2ab50b5877b8225644b2b27b592b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en.search-data.min.d3fa7cd7b8154318fd9eeb1d59fa8d42f8cfdbd94ceccd3eb88bb4d2934c3a9c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en.search.min.5abb026c246dbca0c323141246fc42518d2af1f9d4221a754e1c331c45c14a62.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en.search.min.b87f1716d3c7621264e86b7413e3a59379eddb9c33b2794b2a58e581f5a97c2c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en.search.min.bac0fe639ab55558828b0f7473b1adc25f99509fa690eaf2d3ea2788a4f5b8b0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/header-project-list.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/header-project-list.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/overview-tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/overview-tab.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/tags/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/tags/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/add-ons.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/add-ons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assign-header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assignment-header.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assignment-header.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assignment-row.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assignment-row.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/axis-editor.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/axis-editor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/axis-header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bulk-assignment.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/bulk-assignment.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/composite-tab.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/header-project-list.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/header-project-list.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/overview-tab.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vst-tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/vst-tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vst-tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/vst-tab.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +98,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/../fugalist-fe/node_modules/typescript/lib" />
@@ -150,7 +122,8 @@
       <option name="presentableId" value="Default" />
       <updated>1627688854118</updated>
       <workItem from="1627688856448" duration="93624000" />
-      <workItem from="1628186619855" duration="5966000" />
+      <workItem from="1628186619855" duration="7216000" />
+      <workItem from="1628268518114" duration="1386000" />
     </task>
     <servers />
   </component>

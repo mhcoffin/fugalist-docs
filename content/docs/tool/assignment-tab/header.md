@@ -10,10 +10,14 @@ Fugalist starts you off with a small selection of playing techniques applicable 
 
 ![Header](/assignment-header.png)
 
+Each column---**Length**, **Legato**, etc.---is called an _axis_. 
+{{< hint info >}}
+Fugalist will create a Dorico mutual-exclusion group for each axis (unless it contains only a single playing technique). 
+{{< /hint >}}
+
 You can use the [Axis Editor](/docs/tool/assignment-tab/axis-editor/#editing-playing-techniques) to add and delete
 playing techniques or to add and delete entire axes.
 
-Each column is called an _axis_.
 
 - The first axis (**Length**) consists of the Dorico playing techniques that indicate note duration:
   _Normal_, _Staccato_, _Staccatissimo_, _Tenuto_,
@@ -25,11 +29,11 @@ Each column is called an _axis_.
   your instrument supports: _pizzicato_, _fluttertongue_, etc.
 
 {{< hint info >}}
-Every axis has a _Normal_ technique. 
-_Normal_ is not an actual playing technique. 
+Every axis has a _Normal_ technique.
+_Normal_ is not an actual Dorico playing technique.
 _Normal_  means "no other playing technique from this group is active". 
 For example, under **Length**, _Normal_ means "none of _staccato_, _staccatissimo_, _tenuto_, or _staccato-tenuto_
-are active."
+are active." 
 {{< /hint >}}
 
 The last column of the header allows you to do bulk sound assignment, 
