@@ -9,20 +9,22 @@ You can use comparison operators to combine the actual note length (_NoteLength_
 
 Examples of simple comparisons:
 
-    NoteLength <= veryShort
-    note length <= very short
+    NoteLength == veryShort
+    note length < medium
     very short < note length
-
+    note length == very long
 
 {{< hint info >}}
 Dorico's predefined note lengths:
-- **very short** 0.1875 seconds, or a dotted 16th note at 120bpm
-- **short** 0.375 seconds, or a dotted 8th note at 120bpm
-- **medium** 0.75 seconds, or a dotted quarter note at 120bpm
-- **long** 1.5 seconds, or a dotted half note at 120bpm
+- **very short:** shorter than 0.1875 seconds, (i.e., shorter than a dotted 16th note at 120bpm)
+- **short:** between 0.1875 seconds and 0.375 seconds, (i.e., longer than a dotted 16th note at 120bpm but shorter than a dotted 8th note at 120bpm)
+- **medium:** between 0.375 seconds and 0.75 seconds, (i.e., longer than a dotted 8th note at 120bpm but shorter than a dotted quarter note at 120bpm)
+- **long:** between 0.75 seconds and 1.5 seconds (i.e., longer than a dotted quarter note at 120bpm but shorter than a half note at 120bpm)
+- **very long:** longer than 1.5 seconds (i.e., longer than a half note at 120bpm)
 {{< /hint >}}
 
 {{< hint info >}}
+
 Comparison operators:
 - **<=**
 - **<**
@@ -30,6 +32,7 @@ Comparison operators:
 - **>**
 - **==**
 - **!=**
+
 {{< /hint >}}
 
 You can combine simple comparisons with **and**. Examples:
