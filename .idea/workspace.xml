@@ -5,67 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d594f5d-8910-462d-aa6d-d672a5ccfdcf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.hugo_build.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/docs/tool/options-tab/_index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/docs/tool/vst-tab/vsl.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/tool/add-ons/add-ons/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/en.search-data.min.021ab6ce8815bc27443600f6088b64ec646f4253fc1b70cb2c6b631863fe3ca9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/en.search-data.min.b310551cf6a0cdf5ab7a163cbacbffa636af7bc21f3f7d0d70217ea3267c8186.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/en.search.min.0827f02d2dbde6b5a1c9051a0b825f9f2b3dd3dbff672dee7fa1a21552aebe6a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/en.search.min.ae4a0003f8b048a4401b64e69469ea87319d25a21142ce58cc37693f23e01c03.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/Organization/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/Organization/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/overview-tab/fields.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/overview-tab/fields.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/vst-tab/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/vst-tab/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/vst-tab/add-ons.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/add-ons/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/vst-tab/base.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/vst-tab/base.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/tool/vst-tab/midi.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/vst-tab/midi.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/page/1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/getting-started/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/getting-started/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/getting-started/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/getting-started/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/introduction/example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/introduction/example/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/introduction/how-its-used/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/introduction/how-its-used/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/introduction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/introduction/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/introduction/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/introduction/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/introduction/notation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/introduction/notation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/introduction/problem/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/introduction/problem/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/assignment-tab/axis-editor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/assignment-tab/axis-editor/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/assignment-tab/body/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/assignment-tab/body/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/assignment-tab/bulk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/assignment-tab/bulk/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/assignment-tab/filters/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/assignment-tab/filters/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/assignment-tab/header/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/assignment-tab/header/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/assignment-tab/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/assignment-tab/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/assignment-tab/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/assignment-tab/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/composite-tab/condition-syntax/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/composite-tab/condition-syntax/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/composite-tab/fields/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/composite-tab/fields/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/composite-tab/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/composite-tab/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/composite-tab/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/composite-tab/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/organization/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/organization/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/organization/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/organization/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/overview-tab/actions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/overview-tab/actions/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/overview-tab/fields/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/overview-tab/fields/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/overview-tab/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/overview-tab/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/overview-tab/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/overview-tab/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/vst-tab/add-ons/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/vst-tab/add-ons/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/vst-tab/base/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/vst-tab/base/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/vst-tab/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/vst-tab/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/vst-tab/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/vst-tab/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/vst-tab/midi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/vst-tab/midi/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/workflow/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/workflow/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/tool/workflow/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/tool/workflow/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/page/1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fugalist-fe/firestore-emulator-state/auth_export/accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/../fugalist-fe/firestore-emulator-state/auth_export/accounts.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fugalist-fe/firestore-emulator-state/firestore_export/all_namespaces/all_kinds/all_namespaces_all_kinds.export_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/../fugalist-fe/firestore-emulator-state/firestore_export/all_namespaces/all_kinds/all_namespaces_all_kinds.export_metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fugalist-fe/firestore-emulator-state/firestore_export/all_namespaces/all_kinds/output-0" beforeDir="false" afterPath="$PROJECT_DIR$/../fugalist-fe/firestore-emulator-state/firestore_export/all_namespaces/all_kinds/output-0" afterDir="false" />
@@ -134,7 +73,7 @@
       <workItem from="1645212501297" duration="623000" />
       <workItem from="1647806279073" duration="31000" />
       <workItem from="1647806320745" duration="46000" />
-      <workItem from="1663975032754" duration="7349000" />
+      <workItem from="1663975032754" duration="7682000" />
     </task>
     <servers />
   </component>
