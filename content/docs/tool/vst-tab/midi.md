@@ -34,7 +34,7 @@ A chromatic note with an octave number:
 
 {{< hint info >}}
 Middle C is by default **C4**. 
-If your VST vendor has a different opinion, you can open the Options toggle at the top of the page and choose
+If your VST vendor has a different opinion, you can open the Options toggle at the top of the VST Sounds tab and choose
 a different octave.
 {{< /hint >}}
 

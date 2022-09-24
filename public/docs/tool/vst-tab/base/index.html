@@ -1,236 +1,628 @@
-<!doctype html><html lang=en dir=ltr>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 <head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=description content="Base Sounds #  This is where you enter the sounds you want to use from your VST instrument. To add a new sound, click the + sign and fill in the blanks. Here&rsquo;s one example row:
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Base Sounds #  This is where you enter the sounds you want to use from your VST instrument. To add a new sound, click the &#43; sign and fill in the blanks. Here&rsquo;s one example row:
 Name #  Give the sound a name that you&rsquo;ll recognize later. It will show up on the Assignment tab.
 Start #  Add the MIDI events to send to start the sound, separated by commas.">
-<meta name=theme-color content="#FFFFFF"><meta property="og:title" content="Base Sounds">
-<meta property="og:description" content="Base Sounds #  This is where you enter the sounds you want to use from your VST instrument. To add a new sound, click the + sign and fill in the blanks. Here&rsquo;s one example row:
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Base Sounds" />
+<meta property="og:description" content="Base Sounds #  This is where you enter the sounds you want to use from your VST instrument. To add a new sound, click the &#43; sign and fill in the blanks. Here&rsquo;s one example row:
 Name #  Give the sound a name that you&rsquo;ll recognize later. It will show up on the Assignment tab.
-Start #  Add the MIDI events to send to start the sound, separated by commas.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="//fugalist-docs.web.app/docs/tool/vst-tab/base/"><meta property="article:section" content="docs">
+Start #  Add the MIDI events to send to start the sound, separated by commas." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//fugalist-docs.web.app/docs/tool/vst-tab/base/" /><meta property="article:section" content="docs" />
+
+
+
 <title>Base Sounds | Fugalist</title>
-<link rel=manifest href=/manifest.json>
-<link rel=icon href=/favicon.png type=image/x-icon>
-<link rel=stylesheet href=/book.min.57f7f660871517a5bfcfb5e2de853d806f7e34d94ebd5f3f3bad62e9ddbae209.css integrity="sha256-V/f2YIcVF6W/z7Xi3oU9gG9+NNlOvV8/O61i6d264gk=" crossorigin=anonymous>
-<script defer src=/flexsearch.min.js></script>
-<script defer src=/en.search.min.e53b31b270daf04ce37daaa964072c3708468f5ec6d9c609a11f24987942edce.js integrity="sha256-5TsxsnDa8EzjfaqpZAcsNwhGj17G2cYJoR8kmHlC7c4=" crossorigin=anonymous></script>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.57f7f660871517a5bfcfb5e2de853d806f7e34d94ebd5f3f3bad62e9ddbae209.css" integrity="sha256-V/f2YIcVF6W/z7Xi3oU9gG9&#43;NNlOvV8/O61i6d264gk=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.0827f02d2dbde6b5a1c9051a0b825f9f2b3dd3dbff672dee7fa1a21552aebe6a.js" integrity="sha256-CCfwLS295rWhyQUaC4Jfnys909v/Zy3uf6GiFVKuvmo=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
 </head>
-<body dir=ltr>
-<input type=checkbox class="hidden toggle" id=menu-control>
-<input type=checkbox class="hidden toggle" id=toc-control>
-<main class="container flex">
-<aside class=book-menu>
-<div class=book-menu-content>
-<nav>
-<h2 class=book-brand>
-<a href=/><span>Fugalist</span>
-</a>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>Fugalist</span>
+  </a>
 </h2>
-<div class=book-search>
-<input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/>
-<div class="book-search-spinner hidden"></div>
-<ul id=book-search-results></ul>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
 </div>
-<ul>
-<li>
-<a href=//fugalist-docs.web.app/docs/getting-started/>Getting Started</a>
-<ul>
-</ul>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/introduction/>Introduction</a>
-<ul>
-<li>
-<a href=//fugalist-docs.web.app/docs/introduction/notation/>Notation</a>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/introduction/how-its-used/>How Dorico Uses an Expression Map</a>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/introduction/example/>Tiny Example</a>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/introduction/problem/>So What's the Problem?</a>
-</li>
-</ul>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/>Expression-map Builder</a>
-<ul>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/organization/>Organization</a>
-<ul>
-</ul>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/overview-tab/>Overview Tab</a>
-<ul>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/overview-tab/fields/>Fields</a>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/overview-tab/actions/>Actions</a>
-</li>
-</ul>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/vst-tab/>VST Sounds Tab</a>
-<ul>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/vst-tab/base/ class=active>Base Sounds</a>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/vst-tab/add-ons/>Add Ons</a>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/vst-tab/midi/>MIDI Event Syntax</a>
-</li>
-</ul>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/composite-tab/>Composite Sounds</a>
-<ul>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/composite-tab/fields/>Fields</a>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/composite-tab/condition-syntax/>Condition Syntax</a>
-</li>
-</ul>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/assignment-tab/>Assignment Tab</a>
-<ul>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/assignment-tab/header/>Header</a>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/assignment-tab/axis-editor/>Axis Editor</a>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/assignment-tab/body/>Body</a>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/assignment-tab/filters/>Playing-technique filters</a>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/assignment-tab/bulk/>Bulk Assignment</a>
-</li>
-</ul>
-</li>
-<li>
-<a href=//fugalist-docs.web.app/docs/tool/workflow/>Workflow</a>
-<ul>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/getting-started/" class="">Getting Started</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/introduction/" class="">Introduction</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/introduction/notation/" class="">Notation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/introduction/how-its-used/" class="">How Dorico Uses an Expression Map</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/introduction/example/" class="">Tiny Example</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/introduction/problem/" class="">So What&#39;s the Problem?</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/" class="">Expression-map Builder</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/organization/" class="">Organization</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/overview-tab/" class="">Overview Tab</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/overview-tab/fields/" class="">Fields</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/overview-tab/actions/" class="">Actions</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/vst-tab/" class="">VST Sounds Tab</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/vst-tab/base/" class=" active">Base Sounds</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/vst-tab/midi/" class="">MIDI Event Syntax</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/add-ons/add-ons/" class="">Add Ons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/composite-tab/" class="">Composite Sounds</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/composite-tab/fields/" class="">Fields</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/composite-tab/condition-syntax/" class="">Condition Syntax</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/assignment-tab/" class="">Assignment Tab</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/assignment-tab/header/" class="">Header</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/assignment-tab/axis-editor/" class="">Axis Editor</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/assignment-tab/body/" class="">Body</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/assignment-tab/filters/" class="">Playing-technique filters</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/assignment-tab/bulk/" class="">Bulk Assignment</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="//fugalist-docs.web.app/docs/tool/workflow/" class="">Workflow</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </nav>
-<script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Base Sounds</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
 </div>
-</aside>
-<div class=book-page>
-<header class=book-header>
-<div class="flex align-center justify-between">
-<label for=menu-control>
-<img src=/svg/menu.svg class=book-icon alt=Menu>
-</label>
-<strong>Base Sounds</strong>
-<label for=toc-control>
-<img src=/svg/toc.svg class=book-icon alt="Table of Contents">
-</label>
-</div>
-<aside class="hidden clearfix">
-<nav id=TableOfContents>
-<ul>
-<li><a href=#name>Name</a></li>
-<li><a href=#start>Start</a></li>
-<li><a href=#stop-events>Stop events</a></li>
-<li><a href=#dynamics>Dynamics</a>
-<ul>
-<li></li>
-</ul>
-</li>
-</ul>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#name">Name</a></li>
+    <li><a href="#start">Start</a></li>
+    <li><a href="#stop-events">Stop events</a></li>
+    <li><a href="#dynamics">Dynamics</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
-</aside>
-</header>
-<article class=markdown><h1 id=base-sounds>
-Base Sounds
-<a class=anchor href=#base-sounds>#</a>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="base-sounds">
+  Base Sounds
+  <a class="anchor" href="#base-sounds">#</a>
 </h1>
 <p>This is where you enter the sounds you want to use from your VST instrument.
 To add a new sound, click the <strong>+</strong> sign and fill in the blanks.
 Here&rsquo;s one example row:</p>
-<p><img src=/vst-sound-row.png alt=example-row></p>
-<h2 id=name>
-Name
-<a class=anchor href=#name>#</a>
+<p><img src="/vst-sound-row.png" alt="example-row" /></p>
+<h2 id="name">
+  Name
+  <a class="anchor" href="#name">#</a>
 </h2>
 <p>Give the sound a name that you&rsquo;ll recognize later. It will show up on the Assignment tab.</p>
-<h2 id=start>
-Start
-<a class=anchor href=#start>#</a>
+<h2 id="start">
+  Start
+  <a class="anchor" href="#start">#</a>
 </h2>
 <p>Add the MIDI events to send to start the sound, separated by commas.
-See <a href=/docs/tool/vst-tab/midi>Specifying MIDI events</a> for details of how to write MIDI events.</p>
-<h2 id=stop-events>
-Stop events
-<a class=anchor href=#stop-events>#</a>
+See <a href="/docs/tool/vst-tab/midi">Specifying MIDI events</a> for details of how to write MIDI events.</p>
+<h2 id="stop-events">
+  Stop events
+  <a class="anchor" href="#stop-events">#</a>
 </h2>
 <p>These MIDI events are sent to stop the sound.
-See <a href=/docs/tool/vst-tab/midi>Specifying MIDI events</a> for details of how to write MIDI events.</p>
-<h2 id=dynamics>
-Dynamics
-<a class=anchor href=#dynamics>#</a>
+See <a href="/docs/tool/vst-tab/midi">Specifying MIDI events</a> for details of how to write MIDI events.</p>
+<h2 id="dynamics">
+  Dynamics
+  <a class="anchor" href="#dynamics">#</a>
 </h2>
 <p>You can specify either MIDI note velocity or a MIDI continuous controller (CC) to control velocity:</p>
-<h4 id=velocity>
-Velocity
-<a class=anchor href=#velocity>#</a>
+<h4 id="velocity">
+  Velocity
+  <a class="anchor" href="#velocity">#</a>
 </h4>
 <p>Just use the word &ldquo;velocity&rdquo;, optionally followed by an range. Examples:</p>
 <pre><code>velocity
 velocity 10:120
 </code></pre>
-<h4 id=continuous-controller>
-Continuous controller
-<a class=anchor href=#continuous-controller>#</a>
+<h4 id="continuous-controller">
+  Continuous controller
+  <a class="anchor" href="#continuous-controller">#</a>
 </h4>
 <p>Examples:</p>
 <pre><code>CC3
 cc17 10:120
 </code></pre>
 </article>
-<footer class=book-footer>
-<div class="flex flex-wrap justify-between">
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
 </div>
-<script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
-</footer>
-<div class=book-comments>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
 </div>
-<label for=menu-control class="hidden book-menu-overlay"></label>
-</div>
-<aside class=book-toc>
-<div class=book-toc-content>
-<nav id=TableOfContents>
-<ul>
-<li><a href=#name>Name</a></li>
-<li><a href=#start>Start</a></li>
-<li><a href=#stop-events>Stop events</a></li>
-<li><a href=#dynamics>Dynamics</a>
-<ul>
-<li></li>
-</ul>
-</li>
-</ul>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#name">Name</a></li>
+    <li><a href="#start">Start</a></li>
+    <li><a href="#stop-events">Stop events</a></li>
+    <li><a href="#dynamics">Dynamics</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
-</div>
-</aside>
-</main>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+

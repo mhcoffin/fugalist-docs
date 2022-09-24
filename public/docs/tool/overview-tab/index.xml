@@ -1,6 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Overview Tab on Fugalist</title><link>//fugalist-docs.web.app/docs/tool/overview-tab/</link><description>Recent content in Overview Tab on Fugalist</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="//fugalist-docs.web.app/docs/tool/overview-tab/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>//fugalist-docs.web.app/docs/tool/overview-tab/fields/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>//fugalist-docs.web.app/docs/tool/overview-tab/fields/</guid><description>Overview Fields # Project ID # A unique identifier for this project.
-Created # The time the project was created.
-Current version # Fugalist automatically updates the version when you share your expression map.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview Tab on Fugalist</title>
+    <link>//fugalist-docs.web.app/docs/tool/overview-tab/</link>
+    <description>Recent content in Overview Tab on Fugalist</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="//fugalist-docs.web.app/docs/tool/overview-tab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>//fugalist-docs.web.app/docs/tool/overview-tab/fields/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//fugalist-docs.web.app/docs/tool/overview-tab/fields/</guid>
+      <description>Overview Fields #  Project ID #  A unique identifier for this project.
+Created #  The time the project was created.
+Current version #  Fugalist automatically updates the version when you share your expression map.
 If you have never shared, the &amp;ldquo;current&amp;rdquo; version will be 1.
-When (if) you share the first time, version 1 is shared, and the &amp;ldquo;current&amp;rdquo; version is immediately incremented to 2. Further modification will go into version 2, which is not yet shared.</description></item><item><title/><link>//fugalist-docs.web.app/docs/tool/overview-tab/actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>//fugalist-docs.web.app/docs/tool/overview-tab/actions/</guid><description>Action Buttons # Download # Clicking the download button first regenerates the expression map if changes have been made. Then it downloads the latest version of the generated Dorico expression map to your local machine.
-Copy URL to clipboard # This button copies the URL of the latest version of the generated Dorico expression map. The URL remains the same for each version of the expression map. The URL changes when the version changes.</description></item></channel></rss>
+When (if) you share the first time, version 1 is shared, and the &amp;ldquo;current&amp;rdquo; version is immediately incremented to 2. Further modification will go into version 2, which is not yet shared.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//fugalist-docs.web.app/docs/tool/overview-tab/actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//fugalist-docs.web.app/docs/tool/overview-tab/actions/</guid>
+      <description>Action Buttons #  Download #  Clicking the download button first regenerates the expression map if changes have been made. Then it downloads the latest version of the generated Dorico expression map to your local machine.
+Copy URL to clipboard #  This button copies the URL of the latest version of the generated Dorico expression map. The URL remains the same for each version of the expression map. The URL changes when the version changes.</description>
+    </item>
+    
+  </channel>
+</rss>

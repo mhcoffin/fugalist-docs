@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="The Assignment Table Header #  The assignment-table header shows all the playing techniques that the expression map supports and how they are grouped.
-Fugalist starts you off with a small selection of playing techniques applicable to almost any instrument:
-Each column&mdash;Length, Legato, etc.&mdash;is called an axis. Fugalist will create a Dorico mutual-exclusion group for each axis (unless it contains only a single playing technique).  You can use the Axis Editor to add and delete playing techniques or to add and delete entire axes.">
+<meta name="description" content="Add-on Techniques #  Sometimes the planets align: your VST instrument will have a control that is
+ independent of all the others, and corresponds exactly to a Dorico playing technique.  If this happens, you&rsquo;re in luck.
+For example, you may find a VST instrument that uses CC3 to control attack. Low values mean gentle attack, high values mean marcato attack. Regardless of what else is going on, CC3 controls note attack.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
-<meta property="og:description" content="The Assignment Table Header #  The assignment-table header shows all the playing techniques that the expression map supports and how they are grouped.
-Fugalist starts you off with a small selection of playing techniques applicable to almost any instrument:
-Each column&mdash;Length, Legato, etc.&mdash;is called an axis. Fugalist will create a Dorico mutual-exclusion group for each axis (unless it contains only a single playing technique).  You can use the Axis Editor to add and delete playing techniques or to add and delete entire axes." />
+<meta property="og:description" content="Add-on Techniques #  Sometimes the planets align: your VST instrument will have a control that is
+ independent of all the others, and corresponds exactly to a Dorico playing technique.  If this happens, you&rsquo;re in luck.
+For example, you may find a VST instrument that uses CC3 to control attack. Low values mean gentle attack, high values mean marcato attack. Regardless of what else is going on, CC3 controls note attack." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="//fugalist-docs.web.app/docs/tool/assignment-tab/header/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="//fugalist-docs.web.app/docs/tool/add-ons/add-ons/" /><meta property="article:section" content="docs" />
 
 
 
-<title>Header | Fugalist</title>
+<title>Add Ons | Fugalist</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.57f7f660871517a5bfcfb5e2de853d806f7e34d94ebd5f3f3bad62e9ddbae209.css" integrity="sha256-V/f2YIcVF6W/z7Xi3oU9gG9&#43;NNlOvV8/O61i6d264gk=" crossorigin="anonymous">
@@ -278,7 +278,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="//fugalist-docs.web.app/docs/tool/add-ons/add-ons/" class="">Add Ons</a>
+    <a href="//fugalist-docs.web.app/docs/tool/add-ons/add-ons/" class=" active">Add Ons</a>
   
 
         </li>
@@ -348,7 +348,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="//fugalist-docs.web.app/docs/tool/assignment-tab/header/" class=" active">Header</a>
+    <a href="//fugalist-docs.web.app/docs/tool/assignment-tab/header/" class="">Header</a>
   
 
         </li>
@@ -470,7 +470,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Header</strong>
+  <strong>Add Ons</strong>
 
   <label for="toc-control">
     
@@ -495,40 +495,28 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="the-assignment-table-header">
-  The Assignment Table Header
-  <a class="anchor" href="#the-assignment-table-header">#</a>
+  <article class="markdown"><h1 id="add-on-techniques">
+  Add-on Techniques
+  <a class="anchor" href="#add-on-techniques">#</a>
 </h1>
-<p>The assignment-table header shows all the playing techniques that the expression map supports and how they are grouped.</p>
-<p>Fugalist starts you off with a small selection of playing techniques applicable to almost any instrument:</p>
-<p><img src="/assignment-header.png" alt="Header" /></p>
-<p>Each column&mdash;<strong>Length</strong>, <strong>Legato</strong>, etc.&mdash;is called an <em>axis</em>.
-<blockquote class="book-hint info">
-  Fugalist will create a Dorico mutual-exclusion group for each axis (unless it contains only a single playing technique).
-</blockquote>
-</p>
-<p>You can use the <a href="/docs/tool/assignment-tab/axis-editor/#editing-playing-techniques">Axis Editor</a> to add and delete
-playing techniques or to add and delete entire axes.</p>
+<p>Sometimes the planets align: your VST instrument will have a control that is</p>
 <ul>
-<li>The first axis (<strong>Length</strong>) consists of the Dorico playing techniques that indicate note duration:
-<em>Normal</em>, <em>Staccato</em>, <em>Staccatissimo</em>, <em>Tenuto</em>,
-and <em>Staccato-tenuto</em>.</li>
-<li>The second axis (<strong>Legato</strong>) consists of <em>Normal</em> and <em>Legato</em>.</li>
-<li>The third axis (<strong>Vibrato</strong>) consists of <em>Normal</em> and <em>Non vibrato</em>.</li>
-<li>The fourth axis (<strong>Attack</strong>) consists of <em>Normal</em> and <em>Marcato</em>.</li>
-<li>Finally, <strong>Technique</strong>, which initially contains only <em>Normal</em>. This is a good place to add special techniques that
-your instrument supports: <em>pizzicato</em>, <em>fluttertongue</em>, etc.</li>
+<li>independent of all the others, and</li>
+<li>corresponds exactly to a Dorico playing technique.</li>
 </ul>
-<blockquote class="book-hint info">
-  Every axis has a <em>Normal</em> technique.
-<em>Normal</em> is not an actual Dorico playing technique.
-<em>Normal</em>  means &ldquo;no other playing technique from this group is active&rdquo;.
-For example, under <strong>Length</strong>, <em>Normal</em> means &ldquo;none of <em>staccato</em>, <em>staccatissimo</em>, <em>tenuto</em>, or <em>staccato-tenuto</em>
-are active.&rdquo;
-</blockquote>
-
-<p>The last column of the header allows you to do bulk sound assignment,
-which will be <a href="/docs/tool/assignment-tab/bulk">covered later</a>.</p>
+<p>If this happens, you&rsquo;re in luck.</p>
+<p>For example, you may find a VST instrument that uses CC3 to control attack.
+Low values mean gentle attack, high values mean <em>marcato</em> attack. Regardless of what else
+is going on, CC3 controls note attack.</p>
+<p>You win. You can define an Add-On:</p>
+<p><img src="/add-ons.png" alt="add-on" /></p>
+<p>Select the Dorico playing technique (Marcato) from the dropdown.
+Then add the MIDI controls that will turn the effects on
+and off.
+Dorico will set CC3 to 127 before playing a marcato note, and set it back to 64 for non-marcato notes. It
+will do that no matter what else is going on.</p>
+<p>The beauty of this is that <em>marcato</em> is now taken care of once and for all. When you get to the sound-assignment tab,
+you can just delete the <strong>Attack</strong> axis, which cuts the size of the expression map in half and saves hassle, too.</p>
 </article>
  
       

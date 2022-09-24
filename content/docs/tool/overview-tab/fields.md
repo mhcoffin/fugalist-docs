@@ -66,10 +66,12 @@ If you share, it's visible to people looking for an expression map.
 
 To make it easier for other people to find shared expression maps, you can include other relevant search terms here.
 
-## Demos
+## VST Presets
+
+If your expression map applies to a factory preset provided by the vendor, you won't need to use this.
+However, if you're using custom presets, you can upload them here. 
+
+## Audio Demos
 
 You can upload audio demos of your expression map in action. Useful for people looking for an expression map. 
 You can also upload a PDF of the score you used to create your demo.
-{{< hint danger >}}
-Bug: currently the PDF score isn't visible to users looking for shared expression maps. 
-{{< /hint >}}

@@ -1,11 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Assignment Tab on Fugalist</title><link>//fugalist-docs.web.app/docs/tool/assignment-tab/</link><description>Recent content in Assignment Tab on Fugalist</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="//fugalist-docs.web.app/docs/tool/assignment-tab/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>//fugalist-docs.web.app/docs/tool/assignment-tab/header/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>//fugalist-docs.web.app/docs/tool/assignment-tab/header/</guid><description>The Assignment Table Header # The assignment-table header shows all the playing techniques that the expression map supports and how they are grouped.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignment Tab on Fugalist</title>
+    <link>//fugalist-docs.web.app/docs/tool/assignment-tab/</link>
+    <description>Recent content in Assignment Tab on Fugalist</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="//fugalist-docs.web.app/docs/tool/assignment-tab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>//fugalist-docs.web.app/docs/tool/assignment-tab/header/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//fugalist-docs.web.app/docs/tool/assignment-tab/header/</guid>
+      <description>The Assignment Table Header #  The assignment-table header shows all the playing techniques that the expression map supports and how they are grouped.
 Fugalist starts you off with a small selection of playing techniques applicable to almost any instrument:
-Each column&amp;mdash;Length, Legato, etc.&amp;mdash;is called an axis. Fugalist will create a Dorico mutual-exclusion group for each axis (unless it contains only a single playing technique). You can use the Axis Editor to add and delete playing techniques or to add and delete entire axes.</description></item><item><title/><link>//fugalist-docs.web.app/docs/tool/assignment-tab/axis-editor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>//fugalist-docs.web.app/docs/tool/assignment-tab/axis-editor/</guid><description>Axis Editor # Clicking on the name of the column opens a dialog that lets you edit that group of playing techniques:
+Each column&amp;mdash;Length, Legato, etc.&amp;mdash;is called an axis. Fugalist will create a Dorico mutual-exclusion group for each axis (unless it contains only a single playing technique).  You can use the Axis Editor to add and delete playing techniques or to add and delete entire axes.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//fugalist-docs.web.app/docs/tool/assignment-tab/axis-editor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//fugalist-docs.web.app/docs/tool/assignment-tab/axis-editor/</guid>
+      <description>Axis Editor #  Clicking on the name of the column opens a dialog that lets you edit that group of playing techniques:
 Here you can
-change the name of the axis add or delete playing techniques from the axis move the axis left or right if that makes more sense to you add a new axis delete an axis. Fugalist provides a default set of axes to get started.</description></item><item><title>Body</title><link>//fugalist-docs.web.app/docs/tool/assignment-tab/body/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>//fugalist-docs.web.app/docs/tool/assignment-tab/body/</guid><description>Assignment Tab Body # The body of the tab is just a bunch of rows, one for each combination of the playing techniques. If you add or delete playing techniques, or rearrange the grouping, the rows of the table body will change to reflect that.
+ change the name of the axis add or delete playing techniques from the axis move the axis left or right if that makes more sense to you add a new axis delete an axis.  Fugalist provides a default set of axes to get started.</description>
+    </item>
+    
+    <item>
+      <title>Body</title>
+      <link>//fugalist-docs.web.app/docs/tool/assignment-tab/body/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//fugalist-docs.web.app/docs/tool/assignment-tab/body/</guid>
+      <description>Assignment Tab Body #  The body of the tab is just a bunch of rows, one for each combination of the playing techniques. If you add or delete playing techniques, or rearrange the grouping, the rows of the table body will change to reflect that.
 Here is one row:
-The first five columns represent a particular combination of playing techniques. It will apply to any note where the active playing techniques are exactly non vibrato and marcato.</description></item><item><title>Playing-technique filters</title><link>//fugalist-docs.web.app/docs/tool/assignment-tab/filters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>//fugalist-docs.web.app/docs/tool/assignment-tab/filters/</guid><description>Playing Technique Filters # The column header of the Length axis looks like this:
+The first five columns represent a particular combination of playing techniques. It will apply to any note where the active playing techniques are exactly non vibrato and marcato.</description>
+    </item>
+    
+    <item>
+      <title>Playing-technique filters</title>
+      <link>//fugalist-docs.web.app/docs/tool/assignment-tab/filters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//fugalist-docs.web.app/docs/tool/assignment-tab/filters/</guid>
+      <description>Playing Technique Filters #  The column header of the Length axis looks like this:
 We saw earlier that clicking on the Length button opens the axis-editor dialog. Clicking on a playing technique such as staccato toggles the visibility of table rows containing that technique. I.e., if you toggle Staccato off, all the rows containing Staccato will be hidden. If you toggle it on, they become visible again.
-You can toggle each playing technique individually.</description></item><item><title>Bulk Assignment</title><link>//fugalist-docs.web.app/docs/tool/assignment-tab/bulk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>//fugalist-docs.web.app/docs/tool/assignment-tab/bulk/</guid><description>Bulk Assignment # Frequently, after focusing in on some rows, you want to apply the same sound to all the visible rows. To continue the example from the previous section, you might want to assign &amp;ldquo;harsh staccato&amp;rdquo; to all the rows that have marcato in addition to either staccato or staccatissimo. Bulk sound assignment lets you do that.
+You can toggle each playing technique individually.</description>
+    </item>
+    
+    <item>
+      <title>Bulk Assignment</title>
+      <link>//fugalist-docs.web.app/docs/tool/assignment-tab/bulk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//fugalist-docs.web.app/docs/tool/assignment-tab/bulk/</guid>
+      <description>Bulk Assignment #  Frequently, after focusing in on some rows, you want to apply the same sound to all the visible rows. To continue the example from the previous section, you might want to assign &amp;ldquo;harsh staccato&amp;rdquo; to all the rows that have marcato in addition to either staccato or staccatissimo. Bulk sound assignment lets you do that.
 The rightmost header in the assignment tab looks like this:
-The top dropdown (initially blank) lets you pick any VST or Composite sound that you&amp;rsquo;ve defined.</description></item></channel></rss>
+The top dropdown (initially blank) lets you pick any VST or Composite sound that you&amp;rsquo;ve defined.</description>
+    </item>
+    
+  </channel>
+</rss>

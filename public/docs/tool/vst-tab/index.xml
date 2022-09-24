@@ -1,7 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VST Sounds Tab on Fugalist</title><link>//fugalist-docs.web.app/docs/tool/vst-tab/</link><description>Recent content in VST Sounds Tab on Fugalist</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="//fugalist-docs.web.app/docs/tool/vst-tab/index.xml" rel="self" type="application/rss+xml"/><item><title>Base Sounds</title><link>//fugalist-docs.web.app/docs/tool/vst-tab/base/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>//fugalist-docs.web.app/docs/tool/vst-tab/base/</guid><description>Base Sounds # This is where you enter the sounds you want to use from your VST instrument. To add a new sound, click the + sign and fill in the blanks. Here&amp;rsquo;s one example row:
-Name # Give the sound a name that you&amp;rsquo;ll recognize later. It will show up on the Assignment tab.
-Start # Add the MIDI events to send to start the sound, separated by commas.</description></item><item><title/><link>//fugalist-docs.web.app/docs/tool/vst-tab/add-ons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>//fugalist-docs.web.app/docs/tool/vst-tab/add-ons/</guid><description>Add-on Techniques # Sometimes the planets align: your VST instrument will have a control that is
-independent of all the others, and corresponds exactly to a Dorico playing technique. If this happens, you&amp;rsquo;re in luck.
-For example, you may find a VST instrument that uses CC3 to control attack. Low values mean gentle attack, high values mean marcato attack. Regardless of what else is going on, CC3 controls note attack.</description></item><item><title>MIDI Event Syntax</title><link>//fugalist-docs.web.app/docs/tool/vst-tab/midi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>//fugalist-docs.web.app/docs/tool/vst-tab/midi/</guid><description>Specifying MIDI Events # MIDI Key Switch # A MIDI key switch can be specified either as a note number (0-127) or as a chromatic note plus an octave.
-MIDI Note Number # To specify a MIDI note number, just prefix the number with KS:
-KS3 ks13 ks 7 The default velocity is 127. If you need to specify a different velocity, you can specify the velocity after an &amp;ldquo;=&amp;rdquo; sign.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VST Sounds Tab on Fugalist</title>
+    <link>//fugalist-docs.web.app/docs/tool/vst-tab/</link>
+    <description>Recent content in VST Sounds Tab on Fugalist</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="//fugalist-docs.web.app/docs/tool/vst-tab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Base Sounds</title>
+      <link>//fugalist-docs.web.app/docs/tool/vst-tab/base/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//fugalist-docs.web.app/docs/tool/vst-tab/base/</guid>
+      <description>Base Sounds #  This is where you enter the sounds you want to use from your VST instrument. To add a new sound, click the + sign and fill in the blanks. Here&amp;rsquo;s one example row:
+Name #  Give the sound a name that you&amp;rsquo;ll recognize later. It will show up on the Assignment tab.
+Start #  Add the MIDI events to send to start the sound, separated by commas.</description>
+    </item>
+    
+    <item>
+      <title>MIDI Event Syntax</title>
+      <link>//fugalist-docs.web.app/docs/tool/vst-tab/midi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//fugalist-docs.web.app/docs/tool/vst-tab/midi/</guid>
+      <description>Specifying MIDI Events #  MIDI Key Switch #  A MIDI key switch can be specified either as a note number (0-127) or as a chromatic note plus an octave.
+MIDI Note Number #  To specify a MIDI note number, just prefix the number with KS:
+KS3 ks13 ks 7  The default velocity is 127. If you need to specify a different velocity, you can specify the velocity after an &amp;ldquo;=&amp;rdquo; sign.</description>
+    </item>
+    
+  </channel>
+</rss>

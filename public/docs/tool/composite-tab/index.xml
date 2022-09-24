@@ -1,5 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Composite Sounds on Fugalist</title><link>//fugalist-docs.web.app/docs/tool/composite-tab/</link><description>Recent content in Composite Sounds on Fugalist</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="//fugalist-docs.web.app/docs/tool/composite-tab/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>//fugalist-docs.web.app/docs/tool/composite-tab/fields/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>//fugalist-docs.web.app/docs/tool/composite-tab/fields/</guid><description>Fields # Name # Give your composite sound a name.
-Condition # The condition determines which branch of the composite sound to use for a particular note. In the example above, the first branch is used if the note length (as computed by Dorico) is less than short. The second branch is used otherwise. That means that short notes will use your staccato patch, and longer notes use the sustain patch.</description></item><item><title/><link>//fugalist-docs.web.app/docs/tool/composite-tab/condition-syntax/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>//fugalist-docs.web.app/docs/tool/composite-tab/condition-syntax/</guid><description>Condition Syntax # Fugalist is pretty flexible about how to write conditions. You can use comparison operators to combine the actual note length (NoteLength) and Dorico&amp;rsquo;s predefined note lengths.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Composite Sounds on Fugalist</title>
+    <link>//fugalist-docs.web.app/docs/tool/composite-tab/</link>
+    <description>Recent content in Composite Sounds on Fugalist</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="//fugalist-docs.web.app/docs/tool/composite-tab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>//fugalist-docs.web.app/docs/tool/composite-tab/fields/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//fugalist-docs.web.app/docs/tool/composite-tab/fields/</guid>
+      <description>Fields #  Name #  Give your composite sound a name.
+Condition #  The condition determines which branch of the composite sound to use for a particular note. In the example above, the first branch is used if the note length (as computed by Dorico) is less than short. The second branch is used otherwise. That means that short notes will use your staccato patch, and longer notes use the sustain patch.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//fugalist-docs.web.app/docs/tool/composite-tab/condition-syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//fugalist-docs.web.app/docs/tool/composite-tab/condition-syntax/</guid>
+      <description>Condition Syntax #  Fugalist is pretty flexible about how to write conditions. You can use comparison operators to combine the actual note length (NoteLength) and Dorico&amp;rsquo;s predefined note lengths.
 Examples of simple comparisons:
-NoteLength == veryShort note length &amp;lt; medium very short &amp;lt; note length note length == very long Dorico&amp;rsquo;s predefined note lengths:
-very short: shorter than 0.1875 seconds, (i.e., shorter than a dotted 16th note at 120bpm) short: between 0.</description></item></channel></rss>
+NoteLength == veryShort note length &amp;lt; medium very short &amp;lt; note length note length == very long  Dorico&amp;rsquo;s predefined note lengths:
+ very short: shorter than 0.1875 seconds, (i.e., shorter than a dotted 16th note at 120bpm) short: between 0.</description>
+    </item>
+    
+  </channel>
+</rss>
