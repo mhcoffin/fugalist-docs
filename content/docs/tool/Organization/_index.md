@@ -17,7 +17,7 @@ When you create a new project, it starts you off in the Overview tab.
 
 - The **VST Sounds** tab is where you specify the VST patches you want to use from your sample library.
   For each patch you want to use, you provide a name of your choosing, the on- and off-events,
-  and the volume dynamic.
+  and how to control the volume.
 
 - The *Add-Ons*  tab is for adding add-on switches. For example, if your VST always uses CC1 to control vibrato, you can
   specify that here and not worry about vibrato ever again. In many cases, however, your VST isn't this well behaved,

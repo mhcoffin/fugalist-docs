@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d594f5d-8910-462d-aa6d-d672a5ccfdcf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/getting-started/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/getting-started/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/Organization/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/Organization/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/tool/options-tab/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/tool/options-tab/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fugalist-fe/firestore-emulator-state/auth_export/accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/../fugalist-fe/firestore-emulator-state/auth_export/accounts.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fugalist-fe/firestore-emulator-state/firestore_export/all_namespaces/all_kinds/all_namespaces_all_kinds.export_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/../fugalist-fe/firestore-emulator-state/firestore_export/all_namespaces/all_kinds/all_namespaces_all_kinds.export_metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fugalist-fe/firestore-emulator-state/firestore_export/all_namespaces/all_kinds/output-0" beforeDir="false" afterPath="$PROJECT_DIR$/../fugalist-fe/firestore-emulator-state/firestore_export/all_namespaces/all_kinds/output-0" afterDir="false" />
@@ -37,17 +41,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/content/docs/tool/add-ons" />
@@ -73,7 +77,8 @@
       <workItem from="1645212501297" duration="623000" />
       <workItem from="1647806279073" duration="31000" />
       <workItem from="1647806320745" duration="46000" />
-      <workItem from="1663975032754" duration="7682000" />
+      <workItem from="1663975032754" duration="7895000" />
+      <workItem from="1664149027492" duration="973000" />
     </task>
     <servers />
   </component>

@@ -6,8 +6,6 @@ weight: 3.5
 
 ## The Add-Ons Tab
 
-The Add-Ons tab is for entering add-on switches.
-
 Sometimes the planets align: your VST instrument will have a control that is
 
 - independent of all the others, and
